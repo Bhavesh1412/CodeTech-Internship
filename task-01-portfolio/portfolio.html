@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bhavesh Chandrakant Mundye - Computer Science Student Portfolio">
+    <title>Bhavesh Mundye | Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">BM</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <!-- Circular Profile Photo -->
+            <div class="profile-photo">
+                <img src="https://media.licdn.com/dms/image/v2/D4D03AQF_fPD9zWeygw/profile-displayphoto-scale_200_200/B4DZiUURvVG8AY-/0/1754835004372?e=1767830400&v=beta&t=L3ai_I6PBaJYdJqP2OlalLpsYQt9r0_-2MEE-1P3IlQ" alt="Bhavesh Mundye">
+            </div>
+            <!-- Name with Typing Animation -->
+            <h1 class="hero-name">
+                <span id="typing-text"></span>
+                <span class="cursor">|</span>
+            </h1>
+            <!-- Educational Qualification -->
+            <p class="hero-subtitle">3rd Year Computer Science and Engineering Student</p>
+            <p class="hero-institute">IBIT, Sawantwadi</p>
+            
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                    Hello! I'm Bhavesh Chandrakant Mundye, a passionate Computer Science and Engineering student currently in my third year at IBIT, Sawantwadi. I have a strong interest in full-stack development, blockchain technology, and Linux system administration.
+                </p>
+                <p class="about-text">
+                    My journey in technology has led me to explore various domains including decentralized applications (DApps), smart contract development with Solidity, and building scalable web applications using the MERN stack. I'm also certified in Linux (RHCSA) and enjoy working with open-source technologies.
+                </p>
+                <p class="about-text">
+                    I believe in continuous learning and practical implementation. My goal is to create innovative solutions that solve real-world problems while staying updated with the latest industry trends and best practices.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-badge">HTML</div>
+                <div class="skill-badge">CSS</div>
+                <div class="skill-badge">JavaScript</div>
+                <div class="skill-badge">Solidity</div>
+                <div class="skill-badge">Java</div>
+                <div class="skill-badge">C</div>
+                <div class="skill-badge">C++</div>
+                <div class="skill-badge">Python</div>
+                <div class="skill-badge">Linux (RHCSA)</div>
+                <div class="skill-badge">GitHub</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Naukri Setu</h3>
+                    </div>
+                    <p class="project-description">
+                        A small-scale local job portal that connects job seekers with local job providers efficiently.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Express.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                    </div>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Skill Swapper</h3>
+                    </div>
+                    <p class="project-description">
+                        A skill-bartering platform where users exchange skills based on proficiency levels with added perks.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">MERN Stack</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Blockchain Voting DApp</h3>
+                    </div>
+                    <p class="project-description">
+                        A decentralized voting application built on Ethereum where users securely cast votes using blockchain technology.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Solidity</span>
+                        <span class="tech-tag">Ethereum</span>
+                        <span class="tech-tag">Sepolia</span>
+                    </div>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Twitter-like Blockchain DApp</h3>
+                    </div>
+                    <p class="project-description">
+                        A decentralized social media application where users can tweet, like, and reply using blockchain technology.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Solidity</span>
+                        <span class="tech-tag">Ethereum</span>
+                        <span class="tech-tag">Sepolia</span>
+                    </div>
+                    <a href="#" class="project-btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="education-icon">🎓</div>
+                <h3 class="education-degree">Computer Science and Engineering</h3>
+                <p class="education-year">Third Year (Currently Pursuing)</p>
+                <p class="education-institute">IBIT, Sawantwadi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:bhavesh.mundye@example.com">bhavesh.mundye@example.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💻</span>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/bhaveshmundye" target="_blank">github.com/bhaveshmundye</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-success" class="success-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Bhavesh Chandrakant Mundye</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scroll-top" class="scroll-top" aria-label="Scroll to top">↑</button>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
