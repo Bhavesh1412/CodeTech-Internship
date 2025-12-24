@@ -56,6 +56,17 @@ Conclusion
 
 This static portfolio website successfully fulfills the CODTECH task requirements by delivering a responsive, interactive, and well-structured developer portfolio. It demonstrates strong understanding of frontend fundamentals, UI/UX principles, and real-world portfolio development practices. The project is hosted on GitHub with organized code, making it suitable for professional showcasing and future enhancements.
 
+OUTPUT:
 <img width="1362" height="728" alt="Screenshot 2025-12-24 224954" src="https://github.com/user-attachments/assets/c07d0946-3254-440a-8298-15456e6aa9ed" />
+
+<img width="1365" height="730" alt="Screenshot 2025-12-24 225005" src="https://github.com/user-attachments/assets/76c9b3a7-576e-4a66-bf8e-fcf4e5112631" />
+
+<img width="1365" height="733" alt="Screenshot 2025-12-24 225012" src="https://github.com/user-attachments/assets/9c2223bc-cbdc-4347-bee2-a57ebda762a6" />
+
+<img width="1365" height="726" alt="Screenshot 2025-12-24 225017" src="https://github.com/user-attachments/assets/31bcaa7e-6d59-45d7-be3a-f038a3939ca1" />
+
+<img width="1363" height="729" alt="Screenshot 2025-12-24 225036" src="https://github.com/user-attachments/assets/9642527c-0edf-4a23-bba4-4f804d2d332a" />
+
+<img width="1365" height="741" alt="Screenshot 2025-12-24 225042" src="https://github.com/user-attachments/assets/cf492165-84b7-4704-b18d-a099e3e8e68a" />
 
 
