@@ -55,3 +55,7 @@ The website is fully responsive, adapting seamlessly to desktops, tablets, and m
 Conclusion
 
 This static portfolio website successfully fulfills the CODTECH task requirements by delivering a responsive, interactive, and well-structured developer portfolio. It demonstrates strong understanding of frontend fundamentals, UI/UX principles, and real-world portfolio development practices. The project is hosted on GitHub with organized code, making it suitable for professional showcasing and future enhancements.
+
+<img width="1362" height="728" alt="Screenshot 2025-12-24 224954" src="https://github.com/user-attachments/assets/c07d0946-3254-440a-8298-15456e6aa9ed" />
+
+
